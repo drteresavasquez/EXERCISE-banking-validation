@@ -1,0 +1,15 @@
+.banking_form input:required:invalid {
+  background-color: #000;
+  color: white;
+}
+
+.banking_form input:required:focus:invalid{
+  background-color: red;
+  color: white;
+}
+
+
+.banking_form input:required:valid {
+  background-color: green;
+  color: white;
+}
